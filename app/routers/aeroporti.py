@@ -1,7 +1,7 @@
 from fastapi import APIRouter, HTTPException
 from app.models import AEROPORTO_CREATE
 from app.database import aeroporti_db 
-import app.logging_config as logger
+from app.logging_config import logger
 
 router = APIRouter()
 
