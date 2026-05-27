@@ -1,11 +1,10 @@
-fastapi  
-uvicorn
+fastapi
+uvicorn[standard]
+
 pydantic
+sqlalchemy
+
 pytest
-pytest-cov
 httpx
-pyinstaller
 
-
-
-
+python-multipart
